@@ -1,0 +1,18 @@
+git clone https://github.com/THEDL15/gitExercice
+
+git checkout -b BD_FB
+git checkout BD_FB (Pour etre sur d'etre sur la branche)
+
+cp index.html index.php
+
+emacs .gitignore (on ajoute index.html)
+
+mkdir css; touch css/global.css
+mkdir img;
+mkdir js; touch js/global.js
+
+
+// CMD a effectuer
+    git add .
+    git commit -m "V2"
+    git push origin BD_FB
